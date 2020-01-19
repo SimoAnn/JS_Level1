@@ -7,6 +7,32 @@
     <title>Document</title>
 </head>
 <body>
+    <button onclick="task1 ()">1. Task</button>
+    <button onclick="task2 ()">2. Task</button>
+    <button onclick="task3 ()">3. Task</button>
     
+    <script>
+        function task1 () {
+            var tempC = prompt ('Введите температуру по Цельсию:')
+            var tempF = (9/5) * tempC + 32
+
+            console.log ('Температура по Фаренгейту = ' + tempF)
+        }
+    
+        function task2 () {
+            var name = 'Василий'
+            var admin = ''
+            admin = name
+
+            console.log ('Admin: ' + admin)
+        }
+    
+        function task3 () {
+            var n = 1000
+
+            console.log ('Сложение числа и строки: ' + (n + '108'))
+        }
+    
+    </script>
 </body>
 </html>
