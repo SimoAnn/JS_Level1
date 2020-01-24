@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<button onclick="task1 ()">1. Task</button>
-    <button onclick="task2 ()">2. Task</button>
-    <button onclick="task3 ()">3. Task</button>
-    <button onclick="task4 ()">4. Task</button>
-    
-    <script>
-        function task1 () {
+function task1 () {
             var a = 1, b = 1, c, d
             c = ++a 
             console.log (c)         
@@ -63,23 +48,20 @@
         
             switch (a) {
                 case 0:
-                    console.log ('число 0, неправильно')
-                    break
+                    console.log (a++)
                 case 1:
-                    console.log ('число 1, неправильно')
-                    break
+                    console.log (a++)
                 case 2:
-                    console.log ('число 2, неправильно')
-                    break
+                    console.log (a++)
                 case 3:
-                    console.log ('Правильно!')
+                    console.log (a++)
+                case 4:
+                    console.log (a++)
+                case 5:
+                    console.log (a++)
                     break
                 default:
                     console.log ('Не угадали, попробуйте еще раз')
             }
              
         }
-    
-    </script>
-</body>
-</html>
