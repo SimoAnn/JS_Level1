@@ -65,3 +65,25 @@ function task1 () {
             }
              
         }
+
+        // Task 5
+
+        function plus (a, b) {
+            return a + b
+        }
+
+        function minus (a, b) {
+            return a - b
+        }
+
+        funktion devide (a, b) {
+            return a / b
+        }
+
+        function mult (a, b) {
+            return a * b
+        }
+
+        // Task 6
+
+        
